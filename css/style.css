@@ -4,8 +4,9 @@
   html {
     margin: 0;
     padding: 0;
-    font-family: Poppins;
+    font-family: 'Poppins';
   }
+
   header {
     display: flex;
     flex-direction: row;
@@ -13,7 +14,7 @@
     align-items: center;
     padding: 20px;
   }
-  
+    
   h1 {
     margin: 0;
   }
@@ -34,15 +35,18 @@
     line-height: 20px;
     font-weight: 700;
   }
+
   main {
     padding: 20px;
   }
+
   main h1 {
     color: #172B4D;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
   }
+
   main p {
     color:#344563;
     font-size: 16px;
@@ -65,6 +69,7 @@
     padding: 3px;
     cursor: pointer;
   }
+  
   body {
     background: url("../images/bk-image.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
