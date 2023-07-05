@@ -30,7 +30,7 @@ For more information on the importance of a professional README for your reposit
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="images/hello.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Portfolio Project</b></h3>
@@ -63,7 +63,7 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Portfolio Project] <a name="about-project"></a>
 
 > Microverse Portfolio project.
 
