@@ -29,7 +29,7 @@
   
   nav a {
     text-decoration: none;
-    color: #6070FF;
+    color:#6070FF;
     font-size: 18px;
     line-height: 20px;
     font-weight: 700;
@@ -44,7 +44,7 @@
     line-height: 52px;
   }
   main p {
-    color: #344563;
+    color:#344563;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -52,7 +52,7 @@
   
   main span {
     text-decoration: none;
-    color: #7F8CFF;
+    color:#7F8CFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -76,6 +76,9 @@
 
 /* Desktop screen */
 @media (min-width: 768px) {
- 
+  body{
+    background-color:aliceblue;
+  }
 }
+
 
