@@ -7,7 +7,7 @@
     font-family: "Poppins", sans-serif;
   }
 
-  button{
+  button {
     cursor: pointer;
   }
 
@@ -77,13 +77,6 @@
     text-transform: uppercase;
   }
 
-  #social-links img {
-    width: 20px;
-    height: 20px;
-    padding: 10px 15px 1px 1px;
-    cursor: pointer;
-  }
-
   /* Project section */
 
   .project-container {
@@ -139,6 +132,13 @@
     line-height: 24px;
     color: #344563;
     margin: 1px;
+  }
+
+  #social-links img {
+    width: 20px;
+    height: 20px;
+    padding: 10px 15px 1px 1px;
+    cursor: pointer;
   }
 
   .tools {
@@ -231,7 +231,7 @@
     font-weight: 500;
     line-height: 24px;
     padding: 24px;
-    color: #000000;
+    color: #000;
     background: white;
     border-bottom: #dfe1e6 solid 1px;
     cursor: pointer;
