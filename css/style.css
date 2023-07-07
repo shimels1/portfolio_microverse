@@ -3,6 +3,7 @@
   html {
     margin: 0;
     padding: 0;
+    background: #F7F7F9;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -35,25 +36,27 @@
     font-weight: 700;
   }
 
-  main {
+  #headline {
+    background: url("../images/header-shapes\ mobile.png") ;
     padding: 20px;
   }
 
-  main h1 {
+  #headline h1 {
     color: #172b4d;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
+    margin-top: 92px;
   }
 
-  main p {
+  #headline p {
     color: #344563;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
   }
 
-  main span {
+  #headline span {
     text-decoration: none;
     color: #7f8cff;
     font-size: 16px;
@@ -65,17 +68,11 @@
   #social-links img {
     width: 20px;
     height: 20px;
-    padding: 3px;
+    padding: 10px 15px 0px 0px;
     cursor: pointer;
   }
 
-  body {
-    background: url("../images/bk-image.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+ 
 }
 
 /* Desktop screen */
