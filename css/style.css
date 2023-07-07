@@ -45,36 +45,9 @@
   }
 
   #headline {
-    background: url("../images/header-shapes\ mobile.png");
-  }
-
-  #headline {
     display: flex;
     flex-direction: column;
-  }
-
-  #headline h1 {
-    color: #172b4d;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
-    margin-top: 92px;
-  }
-
-  #headline p {
-    color: #344563;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-  }
-
-  #headline span {
-    text-decoration: none;
-    color: #7f8cff;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-transform: uppercase;
+    background: url("../images/header-shapes\ mobile.png");
   }
 
   /* Project section */
@@ -82,8 +55,6 @@
   .project-container {
     display: grid;
     grid-template-columns: auto;
-    display: flex;
-    flex-direction: column;
   }
 
   .project-container > div {
@@ -134,6 +105,34 @@
     margin: 1px;
   }
 
+  #headline h1 {
+    color: #172b4d;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-top: 92px;
+  }
+
+  #headline p {
+    color: #344563;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  #headline span {
+    text-decoration: none;
+    color: #7f8cff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+
+  .toggle img {
+    margin-top: 23px;
+  }
+
   #social-links img {
     width: 20px;
     height: 20px;
@@ -176,7 +175,6 @@
   }
 
   /* About me section */
-
   #about-me {
     display: flex;
     flex-direction: column;
@@ -225,6 +223,12 @@
     padding: 0px;
   }
 
+  .toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   #about-me .toggle {
     display: flex;
     font-size: 20px;
@@ -251,24 +255,14 @@
     background: #f7f7f9;
   }
 
+  .toggle .text {
+    color: #000;
+  }
+
   #about-me .text {
     margin-top: 15px;
     margin-left: 20px;
     color: #253858;
-  }
-
-  .toggle {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .toggle img {
-    margin-top: 23px;
-  }
-
-  .toggle .text {
-    color: #000000;
   }
 }
 
