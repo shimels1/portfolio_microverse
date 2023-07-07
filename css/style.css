@@ -3,8 +3,8 @@
   html {
     margin: 0;
     padding: 0;
-    background: #F7F7F9;
-    font-family: 'Poppins', sans-serif;
+    background: #f7f7f9;
+    font-family: "Poppins", sans-serif;
   }
 
   header {
@@ -37,7 +37,7 @@
   }
 
   #headline {
-    background: url("../images/header-shapes\ mobile.png") ;
+    background: url("../images/header-shapes\ mobile.png");
     padding: 20px;
   }
 
@@ -71,8 +71,6 @@
     padding: 10px 15px 0px 0px;
     cursor: pointer;
   }
-
- 
 }
 
 /* Desktop screen */
