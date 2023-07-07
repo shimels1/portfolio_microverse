@@ -179,6 +179,7 @@
     display: flex;
     flex-direction: column;
   }
+
   #about-me h1 {
     color: #172b4d;
     font-size: 40px;
@@ -219,8 +220,8 @@
 
   #about-me ul {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
   }
 
   .toggle {
