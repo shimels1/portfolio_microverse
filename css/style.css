@@ -78,6 +78,8 @@ nav a {
 #project-container {
   display: grid;
   grid-template-columns: auto;
+  align-items: center;
+  justify-content: center;
   background: #f7f7f9;
   padding: 20px;
 }
