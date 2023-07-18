@@ -37,6 +37,7 @@ button:disabled {
   background: #c1c7d0;
 }
 
+/* headline section */
 header {
   display: flex;
   flex-direction: row;
@@ -190,6 +191,7 @@ nav a {
   display: flex;
   flex-direction: column;
   padding: 10px;
+  padding-bottom: 114px;
 }
 
 #about-me h1 {
@@ -262,4 +264,82 @@ nav a {
   margin-top: 15px;
   margin-left: 20px;
   color: #253858;
+}
+
+/* Contact form  */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding: 20px;
+  padding-bottom: 10px;
+  border-top-left-radius: 90px;
+  background: url("../images/contact-form-background.png");
+  background-color: #6070ff;
+  background-size: 375px 779px;
+}
+
+#contact-form h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-top: 92px;
+  text-align: center;
+  width: 327px;
+}
+
+#contact-form p {
+  color: #ebebff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  width: 327px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 48px;
+  margin-top: 20px;
+  padding: 0.1px 15px;
+  border-radius: 10px;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  border: none;
+  color: #172b4d;
+  width: 280px;
+}
+
+textarea {
+  height: 170px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  border: none;
+  color: #172b4d;
+  width: 280px;
+}
+
+.content-submit-btn {
+  width: 142px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 12px, 16px, 12px, 16px;
+}
+
+input:focus,
+textarea:focus {
+  border: none;
+  outline: none;
 }
