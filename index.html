@@ -174,5 +174,38 @@
         </li>
       </ul>
     </section>
+    <section class="contact-form">
+      <div class="contact-inner">
+          <h2 class="contact-me">Contact me</h2>
+          <p class="contact-text">
+              If you have an application you are
+              interested in developing,
+              a feature that you need built or a project
+              that needs coding.<br> I’d love to help with
+              it
+          </p>
+          <form id='contact-form' action="https://formspree.io/f/xyyqzzjg" method="POST">
+              <div class="input-container">
+                  <input type="text" placeholder="shimales" required="required" maxlength="30" class="input"
+                      name="name" id="name">
+              </div>
+              <div class="input-container">
+                  <input type="email" placeholder="shime.r@gmail.com" required="required" class="input"
+                      name="email" id="email">
+                  <br />
+                  <p class="danger"></p>
+              </div>
+              <div class="input-container">
+                  <textarea placeholder="Write your message here" required="required" class="input" maxlength="500"
+                      name="message" id="description" cols="30" rows="8"></textarea>
+              </div>
+              <div class="btn-submit-container">
+                  <button type="submit" class="c-project-btn">
+                      Get in touch
+                  </button>
+              </div>
+          </form>
+      </div>      
+  </section>
   </body>
 </html>
