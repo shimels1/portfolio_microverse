@@ -350,24 +350,23 @@ textarea:focus {
 }
 
 @media (min-width: 768px) {
-
   form {
     align-items: center;
   }
+
   #contact-form h2 {
     width: 447px;
   }
-  
+
   #contact-form p {
     width: 569px;
   }
-  
+
   form input {
     width: 447px;
   }
-  
+
   textarea {
     width: 447px;
   }
-  
 }
