@@ -48,6 +48,10 @@ header {
 
 h1 {
   margin: 0;
+  color: #172b4d;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
 }
 
 #menu-icon {
@@ -194,7 +198,7 @@ nav a {
   padding-bottom: 114px;
 }
 
-#about-me h1 {
+#about-me h2 {
   color: #172b4d;
   font-size: 40px;
   font-weight: 700;
@@ -280,12 +284,13 @@ nav a {
   background-size: 375px 779px;
 }
 
-#contact-form h1 {
+#contact-form h2 {
   color: #fff;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  margin-top: 92px;
+  margin-top: 80px;
+  margin-bottom: 1px;
   text-align: center;
   width: 327px;
 }
@@ -342,4 +347,27 @@ input:focus,
 textarea:focus {
   border: none;
   outline: none;
+}
+
+@media (min-width: 768px) {
+
+  form {
+    align-items: center;
+  }
+  #contact-form h2 {
+    width: 447px;
+  }
+  
+  #contact-form p {
+    width: 569px;
+  }
+  
+  form input {
+    width: 447px;
+  }
+  
+  textarea {
+    width: 447px;
+  }
+  
 }
