@@ -312,10 +312,9 @@ input {
   font-size: 17px;
   line-height: 20px;
   font-weight: 400;
-  border: none;
   color: #172b4d;
   width: 280px;
-  border: solid 1px #CFD8DC;
+  border: solid 1px #cfd8dc;
 }
 
 textarea {
@@ -327,10 +326,9 @@ textarea {
   font-size: 17px;
   line-height: 20px;
   font-weight: 400;
-  border: none;
   color: #172b4d;
   width: 280px;
-  border: solid 1px #CFD8DC;
+  border: solid 1px #cfd8dc;
 }
 
 .content-submit-btn {
