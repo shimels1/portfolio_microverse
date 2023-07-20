@@ -28,7 +28,7 @@ button:hover {
 }
 
 button:hover {
-  transform: scale(1.05);
+  transform: scale(1.2);
 }
 
 button:active {
@@ -39,6 +39,9 @@ button:active {
 button:disabled {
   color: #c1c7d0;
   background: #c1c7d0;
+}
+button:disabled{
+  color:#dfe1e6;
 }
 
 /* headline section */
