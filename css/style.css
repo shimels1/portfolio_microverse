@@ -27,6 +27,10 @@ button:hover {
   box-shadow: 0.1px 8px 16px 0.1px #4053fc3d;
 }
 
+button:hover {
+  transform: scale(1.05);
+}
+
 button:active {
   background: #2230d2;
   color: white;
