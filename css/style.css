@@ -5,6 +5,7 @@ body {
   padding: 0;
   background: white;
   font-family: "Poppins", sans-serif;
+  background: violet;
 }
 
 button {
@@ -74,8 +75,15 @@ nav a {
 #headline {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  align-items: center;
+  width: 100%;
   background: url("../images/header-shapes\ mobile.png");
+}
+
+#headline div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
 /* Project section */
@@ -86,14 +94,15 @@ nav a {
   align-items: center;
   justify-content: center;
   background: #f7f7f9;
+  width: 100%;
   padding: 20px;
 }
 
-.card {
+.project-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 327px;
+  width: 327px;
   margin: 15px;
   padding: 16px;
   margin-top: 88px;
@@ -103,13 +112,13 @@ nav a {
   cursor: pointer;
 }
 
-.card img {
+.project-card img {
   width: 100%;
   height: 220px;
   border-radius: 8px;
 }
 
-.card h2 {
+.project-card h2 {
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -117,17 +126,17 @@ nav a {
   color: #172b4d;
 }
 
-.card span {
+.project-card span {
   color: #172b4d;
 }
 
-.card h4 {
+.project-card h4 {
   color: #c1c7d0;
   margin: 8px 1px;
   font-size: 13px;
 }
 
-.card p {
+.project-card p {
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -160,7 +169,7 @@ nav a {
 }
 
 .toggle img {
-  margin-top: 23px;
+  margin-top: 30px;
 }
 
 #social-links img {
@@ -191,14 +200,31 @@ nav a {
 }
 
 /* About me section */
-#about-me {
+#about-me-section {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  align-items: center;
+  /* padding: 20px 0.1px; */
+  background: white;
+  width: 100%;
+  /* margin: 0;
+  padding: 0; */
+  /* padding: 10px;
+  padding-bottom: 114px; */
+  /* margin: 0; */
   padding-bottom: 114px;
+  background: #344563;
+}
+#about-me-top {
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+  /* width: 100px; */
+
+  background-color: #2230d2;
 }
 
-#about-me h2 {
+#about-me-top h2 {
   color: #172b4d;
   font-size: 40px;
   font-weight: 700;
@@ -206,14 +232,14 @@ nav a {
   margin-top: 92px;
 }
 
-#about-me p {
+#about-me-top p {
   color: #344563;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
 }
 
-#about-me span {
+#about-me-top span {
   text-decoration: none;
   color: #7f8cff;
   font-size: 16px;
@@ -222,31 +248,39 @@ nav a {
   text-transform: uppercase;
 }
 
-#about-me ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+#about-me-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #2f7290;
+  width: 100%;
 }
+/* #about-me-bottom ul {
+  width: 100%;
+  margin: 12px 12px;
+  padding: 12px;
+  background: rgb(147, 194, 36);
+} */
 
 .toggle {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-#about-me .toggle {
-  display: flex;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  padding: 24px;
+  /* padding: 24px; */
   color: #000;
   background: white;
   border-bottom: #dfe1e6 solid 1px;
   cursor: pointer;
+  /* margin: 12px 12px; */
+  height: 72px;
+  background: chartreuse;
+  margin-right: 40px;
 }
 
-#about-me .content li {
+.languages-list div {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -262,12 +296,19 @@ nav a {
 
 .toggle .text {
   color: #000;
+  /* background: chocolate; */
 }
 
-#about-me .text {
-  margin-top: 15px;
+#about-me-bottom .text {
+  margin-top: 23px;
   margin-left: 20px;
   color: #253858;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 /* Contact form  */
@@ -350,6 +391,50 @@ textarea:focus {
 }
 
 @media (min-width: 768px) {
+  /* Headline */
+  #headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 2px solid rgb(17, 154, 172);
+    background: url("../images/contact\ form\ background\ shapes@2x.png");
+  }
+
+  #headline div {
+    /* background: url("../images/contact\ form\ background\ shapes@2x.png"); */
+    width: 70%;
+    height: 721.46px;
+    border: 1px solid red;
+  }
+
+  #headline div h1 {
+    /* background: url("../images/contact\ form\ background\ shapes@2x.png"); */
+    width: 50%;
+    border: 1px solid red;
+  }
+
+  /* Works */
+  #project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    width: 70%;
+  }
+
+  .project-card img {
+    width: 50%;
+    height: 448px;
+    border-radius: 8px;
+  }
+
+  /* Contact form */
   form {
     align-items: center;
   }
