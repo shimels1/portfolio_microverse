@@ -25,6 +25,7 @@ button:hover {
   background-color: #6070ff;
   color: white;
   box-shadow: 0.1px 8px 16px 0.1px #4053fc3d;
+  transform: scale(1.2);
 }
 
 button:active {
