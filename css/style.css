@@ -99,6 +99,20 @@ nav {
   padding: 20px;
 }
 
+.languages-list div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 5px;
+  color: #253858;
+  border-radius: 8px;
+  margin: 10px;
+  background: #f7f7f9;
+}
+
 /* Project section */
 .projects-mobile {
   display: block;
@@ -288,20 +302,6 @@ nav {
   margin-right: 40px;
 }
 
-.languages-list div {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  padding: 5px;
-  color: #253858;
-  border-radius: 8px;
-  margin: 10px;
-  background: #f7f7f9;
-}
-
 .toggle .text {
   color: #000;
 }
@@ -413,17 +413,11 @@ textarea:focus {
 
   #menu {
     display: block;
-    display: flex;
     flex-direction: row;
     gap: 10px;
-    display: block;
     position: absolute;
     right: 70px;
     top: 20px;
-  }
-
-  #menu a:hover {
-    border: 1px solid gray;
   }
 
   #menu a {
@@ -438,6 +432,10 @@ textarea:focus {
     text-align: center;
   }
 
+  #menu a:hover {
+    border: 1px solid gray;
+  }
+
   #headline {
     display: flex;
     flex-direction: column;
@@ -448,6 +446,13 @@ textarea:focus {
     background-size: 100% 90%;
     border-bottom-left-radius: 90px;
     background-color: white;
+  }
+
+  .languages-list div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
   }
 
   #headline div {
@@ -507,10 +512,6 @@ textarea:focus {
     flex-direction: row;
   }
 
-  #about-me-bottom .skill-list {
-    width: 100%;
-  }
-
   .skill-list {
     display: flex;
     flex-direction: column;
@@ -522,16 +523,9 @@ textarea:focus {
     width: 100%;
   }
 
-  .languages-list div {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 30%;
-  }
-
   .languages-list span {
-    margin: 0px;
-    padding: 0px;
+    margin: 0.01px;
+    padding: 0.01px;
   }
 
   .languages-list img {
@@ -561,8 +555,8 @@ textarea:focus {
   }
 
   .languages-list {
-    margin: 0px;
-    padding: 0px;
+    margin: 0.01px;
+    padding: 0.01px;
     width: 400px;
   }
 
@@ -591,7 +585,7 @@ textarea:focus {
     background-repeat: no-repeat;
     background-size: 100% 98%;
   }
-  
+
   #contact-form h2 {
     width: 447px;
   }
@@ -607,4 +601,5 @@ textarea:focus {
   textarea {
     width: 447px;
   }
+
 }
