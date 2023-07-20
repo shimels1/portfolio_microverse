@@ -93,12 +93,6 @@ nav {
   background-color: white;
 }
 
-#headline div {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-
 .languages-list div {
   display: flex;
   flex-direction: row;
@@ -111,6 +105,12 @@ nav {
   border-radius: 8px;
   margin: 10px;
   background: #f7f7f9;
+}
+
+#headline div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
 /* Project section */
@@ -520,7 +520,9 @@ textarea:focus {
   .languages-list {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    margin: 0.01px;
+    padding: 0.01px;
+    width: 400px;
   }
 
   .languages-list span {
@@ -552,12 +554,6 @@ textarea:focus {
 
   .skills-mob {
     display: none;
-  }
-
-  .languages-list {
-    margin: 0.01px;
-    padding: 0.01px;
-    width: 400px;
   }
 
   #about-me-top {
@@ -601,5 +597,4 @@ textarea:focus {
   textarea {
     width: 447px;
   }
-
 }
