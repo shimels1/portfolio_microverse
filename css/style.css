@@ -25,9 +25,6 @@ button:hover {
   background-color: #6070ff;
   color: white;
   box-shadow: 0.1px 8px 16px 0.1px #4053fc3d;
-}
-
-button:hover {
   transform: scale(1.2);
 }
 
@@ -39,9 +36,6 @@ button:active {
 button:disabled {
   color: #c1c7d0;
   background: #c1c7d0;
-}
-button:disabled{
-  color:#dfe1e6;
 }
 
 /* headline section */
