@@ -107,7 +107,7 @@ nav {
   background: #f7f7f9;
 }
 
-#headline div {
+.center-content {
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -441,11 +441,29 @@ textarea:focus {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-image: url("../images/Header\ \ desktop\ bg.png");
-    background-repeat: no-repeat;
-    background-size: 100% 90%;
+    max-width: 100%;
     border-bottom-left-radius: 90px;
     background-color: white;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+  }
+
+  #center-content-contenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+    height: 100%;
+    max-width: 100%;
+    margin-top: 30px;
+    border-bottom-left-radius: 90px;
+    background-color: white;
+    background-image: url("../images/Header\ \ desktop\ bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
   }
 
   .languages-list div {
@@ -455,13 +473,13 @@ textarea:focus {
     width: 30%;
   }
 
-  #headline div {
-    padding-top: 260px;
+  .center-content {
+    padding-top: 185px;
     width: 70%;
-    height: 846px;
+    height: 650px;
   }
 
-  #headline div h1 {
+  .center-content h1 {
     width: 50%;
   }
 
@@ -558,7 +576,7 @@ textarea:focus {
 
   #about-me-top {
     width: 40%;
-    padding-left: 25px;
+    padding-left: 1px;
   }
 
   #about-me-bottom {
@@ -576,10 +594,20 @@ textarea:focus {
     align-items: center;
   }
 
-  #contact-form {
+  #contact-form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     background-image: url("../images/contact-form-desktop-bg.png");
     background-repeat: no-repeat;
-    background-size: 100% 98%;
+    background-size: contain;
+    background-position-x: center;
+  }
+
+  #contact-form {
+    background-image: none;
+    padding: 50px;
   }
 
   #contact-form h2 {
