@@ -115,6 +115,7 @@ For more information on the importance of a professional README for your reposit
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://shimels1.github.io/portfolio_microverse/)
+- [About the project](https://www.loom.com/share/b37452fac1f349e5b8ad870ec05b353c)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
