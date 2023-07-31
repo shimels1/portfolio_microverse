@@ -58,16 +58,16 @@ For more information on the importance of a professional README for your reposit
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+<!-- - [❓ FAQ (OPTIONAL)](#faq) -->
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio Project] <a name="about-project"></a>
+# 📖 Portfolio Project <a name="about-project"></a>
 
 > Microverse Portfolio project.
 
-**Microverse Portfolio project** is a simple html and css website.
+**Microverse Portfolio project** is a simple html, css and javascript website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -76,12 +76,14 @@ For more information on the importance of a professional README for your reposit
 > 
 - HTML5
 - CSS
+- javascript
 
 <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">HTML5</a></li>
     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="https://www.w3schools.com/js/">Javascript</a></li>
   </ul>
 </details>
 
@@ -103,10 +105,15 @@ For more information on the importance of a professional README for your reposit
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+<!-- > Describe between 1-3 key features of the application. -->
 
 - **Toolbar section**
 - **Headline section**
+- **Works section**
+- **About me section**
+- **Contact me section**
+- **Desktop version**
+- **Mobile menu section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,7 +135,8 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+<!-- In order to run this project you need: -->
+A browser ex. Google Chrome or other preferred browser.
 
 <!--
 Example command:
@@ -148,7 +156,7 @@ Clone this repository to your desired folder:
 ```
 ### Install
 
-Install this project with:
+<!-- Install this project with: -->
 
 <!--
 Example command:
@@ -158,12 +166,11 @@ Example command:
   gem install
 ```
 --->
+No need for any installation.
 
 ### Usage
 
 To run the project, execute the following command:
-
-
 
 ```sh
   cd portfolio_microverse
@@ -172,8 +179,8 @@ To run the project, execute the following command:
 
 ### Run tests
 
-To run tests, run the following command:
-
+<!-- To run tests, run the following command: -->
+N/A
 <!--
 Example command:
 
@@ -184,8 +191,8 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
-
+<!-- You can deploy this project using: -->
+It can be deployed as a static page from any preferred service. eg. Github pages.
 <!--
 Example:
 
@@ -200,13 +207,13 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+<!-- > Mention all of the collaborators of this project. -->
 
 👤 **Author1**
 
 - GitHub: [@shimels1](https://github.com/shimels1)
 
-👤 **Author2**
+<!-- 👤 **Author2** -->
 
 <!-- - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
@@ -218,11 +225,10 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+<!-- > Describe 1 - 3 features you will add to the project. -->
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Making the project section dynamic**
+- [ ] **Add project details popup**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -240,9 +246,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+<!-- > Write a message to encourage readers to support your project -->
 
-If you like this project...
+If you like this project please give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -250,25 +256,25 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+<!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank...
+I would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+<!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a> -->
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+<!-- > Add at least 2 questions new developers would ask when they decide to use your project. -->
 
-- **[Question_1]**
+<!-- - **[Question_1]**
 
   - [Answer_1]
 
 - **[Question_2]**
 
-  - [Answer_2]
+  - [Answer_2] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
