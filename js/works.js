@@ -1,11 +1,11 @@
 // works section
 const projects = [];
+const projectContainer = document.getElementById('project-container');
 console.log(projects);
 
-var projectContainer = document.getElementById("project-container");
-projectContainer.innerHTML += "";
+projectContainer.innerHTML += '';
 async function loadWorkSection() {
-  const response = await fetch("./data/projects.json");
+  const response = await fetch('./data/projects.json');
   this.projects = await response.json();
   this.projects.projects.forEach(async (project) => {
     this.projectContainer.innerHTML += ` <div class="project-card" id="projectCard${project.id}">
@@ -33,7 +33,7 @@ async function loadWorkSection() {
     // Adding reverse class for 1 out of 2 project cards.
     const projectCard = document.getElementById(`projectCard${project.id}`);
     if (project.id % 2 === 0) {
-      projectCard.classList.add("reverse");
+      projectCard.classList.add('reverse');
     }
   });
 }
@@ -42,7 +42,7 @@ loadWorkSection();
 
 function viewProjectPopup(id) {
   const project = this.projects.projects.find((x) => x.id === id);
-  const projectViewOverlay = document.getElementById("project-view-overlay");
+  const projectViewOverlay = document.getElementById('project-view-overlay');
   projectViewOverlay.innerHTML = ` <div class="project-view-overlay" style="width:100%;">
 
   <div id="view-project-card">
@@ -81,11 +81,11 @@ function viewProjectPopup(id) {
 }
 
 function clothProjectPopup() {
-  document.getElementById("project-view-overlay").innerHTML = "";
+  document.getElementById('project-view-overlay').innerHTML = '';
 }
 
 // fixing linter errors
-if ("D" === "FF") {
+if ('D' === 'FF') {
   clothProjectPopup();
   viewProjectPopup(22);
 }
