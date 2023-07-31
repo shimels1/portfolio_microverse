@@ -14,13 +14,21 @@
   <header>
     <nav>
       <a id="logo" href="#">My Logo</a>
-      <img id="menu-icon" src="images/Enabled.png" alt="" />
+      <img id="menu-icon" src="images/Enabled.png" />
       <section id="menu">
 
         <a href="#">Portfolio</a>
         <a href="#">About</a>
         <a href="#">Contacts</a>
       </section>
+      <div id="overlay">
+        <a id="mob-closebtn" src="icones/cloth-btn.png" onclick="closeNav()">&times;</a>
+        <div class="overlay-menu">
+          <a class="mobile-menu" href="#headline">Portfolio</a>
+          <a class="mobile-menu" href="#about-me-section">About</a>
+          <a class="mobile-menu" href="#contact-form">Contacts</a>
+        </div>
+      </div>
     </nav>
   </header>
   <section id="headline">
@@ -50,7 +58,7 @@
   </section>
   <section id="project-container" class="projects-desktop">
     <div class="project-card">
-      <img src="images/project 1.png" alt="project image" />
+      <img src="images/project-image-1.png" alt="project image" />
       <div class="project-detail-contener">
         <h2>Tonic</h2>
         <h4>
@@ -58,34 +66,31 @@
           2015
         </h4>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          euismod nisi, ac bibendum odio bibendum vel. Donec euismod nisl ut
-          magna aliquam, vel lacinia sapien bibendum. Sed eget velit vel velit
-          lacinia dapibus.
+          A daily selection of privately personalized reads; no accounts or sign-ups required.
         </p>
         <ul class="tools">
           <li>HTML</li>
+          <li>Ruby on rails</li>
           <li>CSS</li>
           <li>JavaScript</li>
         </ul> <button class="see-project-btn">See Project</button>
       </div>
     </div>
     <div class="project-card reverse">
-      <img src="images/project 1.png" alt="project image" />
+      <img src="images/project-image-2.png" alt="project image" />
       <div class="project-detail-contener">
-        <h2>Tonic</h2>
+        <h2>Multi-Post Stories</h2>
         <h4>
-          <span>CANOPY</span> &nbsp; ● &nbsp; Back End Dev &nbsp; ● &nbsp;
+          <span>FACEBOOK</span> &nbsp; ● &nbsp; Full Stack Dev &nbsp; ● &nbsp;
           2015
         </h4>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          euismod nisi, ac bibendum odio bibendum vel. Donec euismod nisl ut
-          magna aliquam, vel lacinia sapien bibendum. Sed eget velit vel velit
-          lacinia dapibus.
+          Experimental content creation feature that allows users to add to an existing story over the course of a day
+          without spamming their friends.
         </p>
         <ul class="tools">
           <li>HTML</li>
+          <li>Ruby on rails</li>
           <li>CSS</li>
           <li>JavaScript</li>
         </ul> <button class="see-project-btn">See Project</button>
@@ -95,18 +100,16 @@
 
     </div>
     <div class="project-card">
-      <img src="images/project 1.png" alt="project image" />
+      <img src="images/project-image-3.png" alt="project image" />
       <div class="project-detail-contener">
-        <h2>Tonic</h2>
+        <h2>Facebook 360</h2>
         <h4>
-          <span>CANOPY</span> &nbsp; ● &nbsp; Back End Dev &nbsp; ● &nbsp;
+          <span>FACEBOOK</span> &nbsp; ● &nbsp; Full Stack Dev &nbsp; ● &nbsp;
           2015
         </h4>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          euismod nisi, ac bibendum odio bibendum vel. Donec euismod nisl ut
-          magna aliquam, vel lacinia sapien bibendum. Sed eget velit vel velit
-          lacinia dapibus.
+          Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360
+          photos and videos on Gear VR.
         </p>
         <ul class="tools">
           <li>HTML</li>
@@ -119,21 +122,20 @@
 
     </div>
     <div class="project-card reverse">
-      <img src="images/project 1.png" alt="project image" />
+      <img src="images/project-image-4.png" alt="project image" />
       <div class="project-detail-contener">
-        <h2>Tonic</h2>
+        <h2>Uber Navigation</h2>
         <h4>
-          <span>CANOPY</span> &nbsp; ● &nbsp; Back End Dev &nbsp; ● &nbsp;
-          2015
+          <span>Uber</span> &nbsp; ● &nbsp; Lead Developer &nbsp; ● &nbsp;
+          2018
         </h4>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          euismod nisi, ac bibendum odio bibendum vel. Donec euismod nisl ut
-          magna aliquam, vel lacinia sapien bibendum. Sed eget velit vel velit
-          lacinia dapibus.
+          A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer:
+          your car.
         </p>
         <ul class="tools">
           <li>HTML</li>
+          <li>Ruby on rails</li>
           <li>CSS</li>
           <li>JavaScript</li>
         </ul> <button class="see-project-btn">See Project</button>
@@ -195,7 +197,7 @@
 
   </section>
   <section id="contact-form">
-    <div>
+    <div id="contact-form-container">
       <h2>Contact me</h2>
       <p>
         If you have an application you are interested in developing, a feature
@@ -211,6 +213,7 @@
     </div>
 
   </section>
+  <script src="/js/app.js"></script>
 </body>
 
 </html>
