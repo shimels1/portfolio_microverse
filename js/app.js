@@ -21,3 +21,7 @@ mobNavClosebtn.addEventListener('click', () => {
 overlayContainer.addEventListener('click', () => {
   closeNav();
 });
+
+overlayContainer.addEventListener("click", (event) => {
+  closeNav();
+});
