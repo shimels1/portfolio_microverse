@@ -9,7 +9,7 @@ function closeNav() {
 
 const overlayContainer = document.getElementById('overlay');
 const menuIcon = document.getElementById('menu-icon');
-const mobNavClosebtn = document.getElementsByClassName('mob-closebtn');
+const mobNavClosebtn = document.getElementById('mob-closebtn');
 
 menuIcon.addEventListener('click', () => {
   openNav();
@@ -18,6 +18,7 @@ menuIcon.addEventListener('click', () => {
 mobNavClosebtn.addEventListener('click', () => {
   closeNav();
 });
+
 overlayContainer.addEventListener('click', () => {
   closeNav();
 });
