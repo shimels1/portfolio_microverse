@@ -58,7 +58,7 @@ For more information on the importance of a professional README for your reposit
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+<!-- - [❓ FAQ (OPTIONAL)](#faq) -->
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -136,6 +136,7 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 <!-- In order to run this project you need: -->
+A browser ex. Google Chrome or other preferred browser.
 
 <!--
 Example command:
@@ -165,12 +166,11 @@ Example command:
   gem install
 ```
 --->
+No need for any installation.
 
 ### Usage
 
 To run the project, execute the following command:
-
-
 
 ```sh
   cd portfolio_microverse
@@ -180,7 +180,7 @@ To run the project, execute the following command:
 ### Run tests
 
 <!-- To run tests, run the following command: -->
-
+N/A
 <!--
 Example command:
 
@@ -192,7 +192,7 @@ Example command:
 ### Deployment
 
 <!-- You can deploy this project using: -->
-
+It can be deployed as a static page from any preferred service. eg. Github pages.
 <!--
 Example:
 
@@ -248,7 +248,7 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- > Write a message to encourage readers to support your project -->
 
-<!-- If you like this project... -->
+If you like this project please give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,13 +258,13 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-<!-- I would like to thank... -->
+I would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+<!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a> -->
 
 <!-- > Add at least 2 questions new developers would ask when they decide to use your project. -->
 
