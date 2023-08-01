@@ -1,14 +1,14 @@
 // works section
 const projects = [];
-const projectContainer = document.getElementById('project-container');
 console.log(projects);
 
-projectContainer.innerHTML += '';
+// projectContainer.innerHTML += "";
 async function loadWorkSection() {
   const response = await fetch('./data/projects.json');
   this.projects = await response.json();
+  const projectContainer = document.getElementById('project-container');
   this.projects.projects.forEach(async (project) => {
-    this.projectContainer.innerHTML += ` <div class="project-card" id="projectCard${project.id}">
+    projectContainer.innerHTML += ` <div class="project-card" id="projectCard${project.id}">
                             <img src="${project.images[0]}" alt="project image" />
                             <div class="project-detail-contener" >
                               <h2>${project.title}</h2>
