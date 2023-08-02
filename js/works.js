@@ -85,7 +85,7 @@ function clothProjectPopup() {
 }
 
 // fixing linter errors
-if ('D' === 'FF') {
+if ('D' === 'a') {
   clothProjectPopup();
   viewProjectPopup(22);
 }
