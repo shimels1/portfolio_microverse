@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Tonic",
+      "company": "CANOPY",
+      "position": "Back End Dev",
+      "year": "2015",
+      "description": "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      "images": ["images/project-image-1.png"],
+      "technologies": ["HTML", "CSS", "JavaScript","Ruby on rails"],
+      "live_version": "#",
+      "source_code": "#"
+    },
+    {
+      "id": 2,
+      "title": "Multi-Post Stories",
+      "company": "FACEBOOK",
+      "position": "Full Stack Dev",
+      "year": "2015",
+      "description": "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
+      "images": ["images/project-image-2.png"],
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_version": "#",
+      "source_code": "#"
+    },
+    {
+      "id": 3,
+      "title": "Facebook 360",
+      "company": "CANOPY",
+      "position": "Back End Dev",
+      "year": "2015",
+      "description": "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
+      "images": ["images/project-image-3.png"],
+      "technologies": ["HTML", "CSS", "JavaScript","Ruby on rails"],
+      "live_version": "#",
+      "source_code": "#"
+    },
+    {
+      "id": 4,
+      "title": "Uber Navigation",
+      "company": "Uber",
+      "position": "Lead Developer",
+      "year": "2018",
+      "description": "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
+      "images": ["images/project-image-4.png"],
+      "technologies": ["HTML", "CSS", "JavaScript","Ruby on rails"],
+      "live_version": "#",
+      "source_code": "#"
+    }
+  ]
+}
